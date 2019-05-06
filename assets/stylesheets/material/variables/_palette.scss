@@ -8,9 +8,9 @@ $primary: (
 ) !default;
 
 $secondary: (
-  color: $material-color-pink-a200,
-  dark:  $material-color-pink-a400,
-  light: $material-color-pink-a100
+  color: $color-primary,
+  dark:  darken($color-primary, 10%),
+  light: lighten($color-primary, 10%)
 ) !default;
 
 $danger: (
